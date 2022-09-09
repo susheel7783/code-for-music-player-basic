@@ -1,0 +1,1434 @@
+//index code
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+<script src="https://kit.fontawesome.com/12ea7bdbce.js" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="style.css">
+	<title>music-website</title>
+</head>
+<body>
+	<!-- in header we have to take box first left for name and second for content -->
+<header>
+	<div class="menu_side">
+		<h1>Playlist</h1>
+		<div class="playlist">
+			<!-- taking music icon from bootstrap -->
+			<h4 class="active"><span></span><i class="fa-solid fa-music"></i>Playlist</h4>
+			<h4><span></span><i class="fa-solid fa-music"></i>Last Listening</h4>
+			<h4><span></span><i class="fa-solid fa-music"></i>Recommended</h4>
+		</div>
+      
+     <div class="menu_song">
+     	<li class="songItem">
+     		<span>01</span>
+     		<img src="image/1.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="1"></i>
+     	</li>
+
+     	<li class="songItem">
+     		<span>02</span>
+     		<img src="image/2.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="2"></i>
+     	</li>
+
+     	<li class="songItem">
+     		<span>03</span>
+     		<img src="image/2.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="3"></i>
+     	</li>
+
+     	<li class="songItem">
+     		<span>04</span>
+     		<img src="image/2.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="4"></i>
+     	</li>
+
+     	<li class="songItem">
+     		<span>05</span>
+     		<img src="image/2.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="5"></i>
+     	</li>
+
+     	<li class="songItem">
+     		<span>06</span>
+     		<img src="image/2.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="6"></i>
+     	</li>
+
+     	<li class="songItem">
+     		<span>07</span>
+     		<img src="image/2.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="7"></i>
+     	</li>
+
+     	<li class="songItem">
+     		<span>08</span>
+     		<img src="image/2.jpg" alt="">
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     		<i class="fa-regular playListPlay fa-circle-play" id="8"></i>
+     	</li>
+     </div>
+	</div>
+
+
+
+<!-- song side -->
+	<div class="song_side">
+		<nav>
+			<ul>
+				<li>Discover <span></span></li>
+				<li>MY LIBRARY</li>
+				<li>RADIO</li>
+			</ul>
+			<div class="search">
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<input type="text" placeholder="Search Music...">
+			</div>
+			<div class="user">
+				<img src="image/KDS CODER.png" alt="">
+			</div>
+		</nav>
+
+		<div class="content">
+			<h1>Alen Walker-Fade</h1>
+			
+			<p>You were the shadow to my light did you feel us Another start you fade <br> away afraid our aim is out of sight Wanna see us Alive</p>
+			<div class="buttons">
+				<button>PLAY</button>
+				<button>FOLLOW</button>
+			</div>
+		</div>
+
+		<div class="popular_song">
+			<div class="h4">
+				<h4>Popular Song</h4>
+				<div class="btn_s">
+					<i class="fa-solid fa-arrow-left" id="pop_song_left"></i>
+					<i class="fa-solid fa-arrow-right" id="pop_song_right"></i>
+
+				</div>
+			</div>
+
+			<div class="pop_song">
+				
+				<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="9"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="10"></i>
+     		
+     		
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<i class="fa-regular playListPlay fa-circle-play" id="2"></i>
+     		
+     		<img src="image/2.jpg" alt="">
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="11"></i>
+     		
+     		
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<i class="fa-regular playListPlay fa-circle-play" id="2"></i>
+     		
+     		<img src="image/2.jpg" alt="">
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="12"></i>
+     		
+     		
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="13"></i>
+     		
+     		
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="14"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="15"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="16"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="17"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="18"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<!-- <li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="19"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li>
+     	<li class="songItem">
+     		<div class="img_play">
+     			<img src="image/2.jpg" alt="">
+     			<i class="fa-regular playListPlay fa-circle-play" id="20"></i>
+     		</div>
+     		<h5>On My Way<br>
+<div class="subtitle">Alen Walker</div>
+     		</h5>
+     	</li> -->
+			</div>
+		</div>
+		
+		<div class="popular_artists">
+			<div class="h4">
+				<h4>Popular Artists</h4>
+				<div class="btn_s">
+					<i class="fa-solid fa-arrow-left" id="pop_art_left"></i>
+					<i class="fa-solid fa-arrow-right" id="pop_art_right"></i>
+
+				</div>
+			</div>
+			<div class="item">
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				<li>
+					<img src="image/arjit.jpg" alt="">
+				</li>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+    <div class="master_play">
+    	<div class="wave" id="wave">
+    		<div class="wave1"></div>
+    		<div class="wave1"></div>
+    		<div class="wave1"></div>
+    	</div>
+    	<img src="image/20.jpg" alt="" id="poster_master_play">
+    	<h5 id="title">
+        Vande mataram 
+        <div class="subtitle"> Bankim Chandra</div>
+
+    	</h5>
+
+    	<div class="icon">
+    		<i class="fa-solid shuffle fa-music">next</i>
+    		<i class="fa-solid fa-backward-step" id="back"></i>
+    		<i class="fa-solid fa-play" id="masterPlay"></i>
+    		<i class="fa-solid fa-forward-step" id="next"></i>
+    		<i class="fa-solid fa-cloud-arrow-down" id="download_music"></i>
+    	</div>
+    	<span id="currentStart">0:00</span>
+    	<div class="bar">
+    		<input type="range" id="seek" min="0" max="100">
+    		<div class="bar2" id="bar2"></div>
+    		<div class="dot" id="play_dot"></div>
+    	</div>
+    	<span id="currentEnd">0:30</span>
+    	<div class="vol">
+    		<i class="fa-solid fa-volume-high" id="vol_icon"></i>
+    		<input type="range" min="0" max="100" id="vol">
+    		<div class="vol_bar" id="vol_bar"></div>
+    		<div class="dot" id="vol_dot"></div>
+    		
+    	</div>
+    </div>
+
+
+
+</header>
+<script src="app.js"></script>
+</body>
+</html>
+
+
+//css code
+
+/*google font poppins*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+.{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins',sans-serif;
+	width: 100%;
+	height: 100vh;
+	background: #121213;
+	/*for centering we are using iind method*/
+display: grid;
+place-items:center;
+}
+
+
+header{
+	position: relative;
+	width: 85%;
+	height: 95%;
+	/*border: 1px solid #fff;*/
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+header .menu_side , .song_side {
+	width: 25%;
+	height: 90%;
+	/*border: 1px solid #fff;*/
+	background: #111727;
+	box-shadow: 5px 0px 2px #090f1f;
+	color: #fff;
+
+}
+header .song_side{
+	width: 75%;
+	background: #0b1320; 
+}
+
+header .master_play{
+	width: 100%;
+	height: 10%;
+background: #111727;
+box-shadow: 0px 3px 8px #090f1f;  
+}
+
+header .menu_side h1{
+	font-size: 20px;
+	margin: 15px 0px 0px 20px;
+	font-weight: 500;
+
+}
+
+header .menu_side .playlist{
+	margin: 10px 0px 0px 20px;
+}
+
+header .menu_side .playlist h4{
+font-size: 14px;
+font-weight: 400;
+padding-bottom: 10px;
+color: #4c5262;
+cursor: pointer;
+align-items: center;
+transition: 0.3s linear;
+}
+
+header .menu_side .playlist h4:hover{
+color: #fff;
+}
+
+header .menu_side .playlist h4 span{
+	position: relative;
+	margin-right: 35px;
+}
+
+header .menu_side .playlist h4 span::before{
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	border: 2px solid #4c5262;
+	border-radius: 50%;
+	top: 0px;
+	transition: 0.3s linear;
+}
+
+header .menu_side .playlist h4:hover span::before{
+	border: 2px solid #fff;
+}
+
+/*to remove music icon display none*/
+header .menu_side .playlist h4 .fa-music{
+	display: none;
+}
+header .menu_side .playlist .active{
+	color: #36e2ec;
+}
+header .menu_side .playlist .active span{
+	display: none; 
+}
+header .menu_side .playlist .active .fa-music{
+	display: flex; 
+	margin-right: 20px;
+}
+
+header .menu_side .menu_song {
+	width: 95%;
+	height: 340px;
+	/*border: 1px solid #fff;*/
+	margin-top: 40px;
+	overflow: auto;
+
+}
+header .menu_side .menu_song::-webkit-scrollbar {
+display: none;
+}
+
+header .menu_side .menu_song li{
+	list-style-type: none;  
+	position: relative;
+	padding: -10px 0px 5px 20px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition:0.3s linear;
+	/*background: rgb(105, 105, 105, 0.1); */
+}
+
+header .menu_side .menu_song li:hover {
+	background: rgb(105, 105, 105, 0.1); 
+}
+header .menu_side .menu_song li span{
+	font-size: 12px;
+	font-weight: 600;
+	color: #4c5262; 
+}
+header .menu_side .menu_song li img{
+	width: 32px; 
+	height: 32px;
+	margin-left: 25px;
+}
+header .menu_side .menu_song li h5{
+	font-size: 11px; 
+	margin-left: 15px;
+	width: 170px;
+	/*border: 1px solid #fff;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+header .menu_side .menu_song li h5 .subtitle {
+	font-size: 9px; 
+	color: #4c5262;
+}
+
+header .menu_side .menu_song li .fa-circle-play {
+	position: absolute;
+	right: 15px;
+}
+
+header .master_play {
+	display: flex;
+	align-items: center;
+	padding: 0px 20px; 
+}
+header .master_play .wave{
+	width: 36px;
+	height: 30px;
+	/*border: 1px solid #fff;*/
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+header .master_play .wave .wave1{
+	width: 3px;
+	height: 10px;
+	background: #36e2ec;
+	margin-right: 3px;
+	border-radius: 10px 10px 0px 0px;
+	animation: unset;
+}
+header .master_play .wave .wave1:nth-child(2){
+		height: 13px;
+		margin-right: 3.5px;
+		animation-delay: .4s;
+}
+header .master_play .wave .wave1:nth-child(3){
+		height: 8px;
+		animation-delay: .8s;
+}
+
+
+
+/*javascript classes*/
+
+header .master_play .active1 .wave1 {
+		animation: wave .5s linear infinite;
+}
+
+header .master_play .active1 .wave1:nth-child(2){
+		animation-delay: .4s;
+}
+header .master_play .active1 .wave1:nth-child(3){
+		
+		animation-delay: .8s;
+}
+
+@keyframes wave {
+	0%{
+height: 10px;
+	}
+	50%{
+		height: 15px;
+	}
+	100%{
+		height: 10px;
+	}
+}
+header .master_play img {
+	width: 35px;
+	height: 35px;
+}
+header .master_play h5 {
+	width: 130px;
+	/*border: 1px solid #fff;*/
+	margin-left: 15px;
+	color: #fff;
+	line-height: 17px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 13px;
+
+}
+
+header .master_play h5 .subtitle {
+	font-size: 11px;
+	color: #4c5262;
+	width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+header .master_play .icon {
+	font-size: 20px;
+	color: #fff;
+	margin: 0px 20px 0px 40px;
+	outline: none;
+	display: flex;
+	align-items: center;
+}
+header .master_play .icon .fa-solid {
+	cursor: pointer;
+	outline: none;
+}
+header .master_play .icon .shuffle {
+	font-size: 17px;
+
+	margin-right: 10px;
+	width: 17.5px;
+	overflow: hidden;
+	display: flex;
+	align-items:  center;
+}
+header .master_play .icon #download_music {
+font-size: 20px;
+margin-left: 10px;
+}
+header .master_play .icon .fa-solid:nth-child(3) {
+border: 1px solid rgb(105, 105, 105, .1);
+border-radius: 50%;
+padding: 1px 5px 0px 7px;
+margin: 0px 5px;
+}
+header .master_play span {
+color: #fff;
+width: 32px;
+/*border: 1px solid #fff;*/
+font-size: 11px;
+font-weight: 400;
+}
+header .master_play #currentStart {
+	margin: 0px 0px 0px 20px;
+}
+header .master_play .bar {
+	position: relative;
+	width: 43%;
+	height: 2px;
+	background: rgb(105, 105, 170, 0.1);
+	margin: 0px 15px 0px 10px;
+}
+header .master_play .bar .bar2 {
+	position: absolute;
+	background: #36e2ec;
+	width: 0;
+	height: 100%;
+	top: 0;
+	transition: 1s linear;	
+}
+header .master_play .bar .dot {
+	position: absolute;
+	background: #36e2ec;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	left: 0%;
+	top: -1.5px;
+	transition: 1s linear;	
+}
+header .master_play .bar .dot::before {
+	content:''; 
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #36e2ec;
+	border-radius: 50%;
+	left: -7px;
+	top: -6.5px;
+	box-shadow: inset 0px 0px 3px #36e2ec;
+}
+header .master_play .bar input {
+	position: absolute;
+	width: 100%;
+	top: -8.5px;
+	left: 0;
+	cursor: pointer;
+    z-index: 999999999999999999999999999;
+    opacity: 0;
+}
+header .master_play .vol {
+	position: relative;
+	width: 100px;
+	height: 2px;
+	background: rgb(105, 105, 170, .1);
+	margin-left: 50px; 
+}
+header .master_play .vol .fa-solid {
+	position: absolute;
+	color:  #fff;
+	font-size: 20px;
+	top: -10px;
+	left: -30px;
+}
+header .master_play .vol input {
+	position: absolute;
+	width: 100%;
+	top: -6px;
+	left: 0;
+	cursor: pointer;
+	z-index: 9999999999999999999999999999999;
+	opacity: 0;	 
+}
+header .master_play .vol .vol_bar {
+	position: absolute;
+	background: #36e2ec;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transition: 1s linear; 
+}
+header .master_play .vol .dot {
+	position: absolute;
+	background: #36e2ec;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	left: 100%;
+	top: -1.5px;
+	transition: 1s linear;
+}
+header .master_play .vol .dot::before {
+	 content:''; 
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #36e2ec;
+	border-radius: 50%;
+	left: -7px;
+	top: -6.5px;
+	box-shadow: inset 0px 0px 3px #36e2ec;
+}
+
+header .song_side {
+z-index: 2;
+}
+header .song_side::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 300px;
+
+	background: url('bg.png');
+	z-index: -1;
+}
+
+header .song_side nav{
+	width: 90%;
+	height: 10%;
+	/*border: 1px solid #fff;*/
+	margin: auto; 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header .song_side nav ul {
+	display: flex;
+}
+header .song_side nav ul li {
+	list-style: none;
+	position: relative;
+	font-size: 13px;
+	color: #4c5262;
+	margin-right: 25px;
+	cursor: pointer;
+	transition: .3s linear;
+}
+header .song_side nav ul li:hover {
+	color: #fff;
+}
+header .song_side nav ul li:nth-child(1) {
+	color: #fff;
+}
+header .song_side nav ul li span {
+	position: absolute;
+	width: 100%;
+	height: 2.5px;
+	background: #36e2ec;
+	bottom: -5px;
+	left: 0;
+	break-inside: 20px;
+}
+header .song_side nav .search {
+	position: relative;
+	width: 40%;
+	padding: 1px 10px;
+	border-radius: 20px;
+	/*border: 1px solid #fff;*/
+	color: grey;
+}
+header .song_side nav .search::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(184, 184, 184, .1);
+	border-radius: 20px;
+backdrop-filter: blur(5px);
+z-index: -1;
+}
+header .song_side nav .search .fa-solid {
+	font-size: 13px;
+	padding: 3px 0px 0px 10px;
+}
+header .song_side nav .search input {
+	background: none;
+	border: none;
+	outline: none;
+	padding: 0px 10px;
+	color: #fff;
+	font-size: 12px;
+}
+header .song_side nav .user {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	/*border: 1px solid #fff;*/
+	border-radius: 50%;
+}
+header .song_side nav .user img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	box-shadow: 2px 2px 8px #121213;
+}
+header .song_side .content {
+	width: 90%;
+	height: 30%;
+	/*border: 1px solid #fff;*/
+	margin: auto;
+	padding-top: 20px; 
+}
+header .song_side .content h1 {
+	font-size: 25px;
+	font-weight: 600; 
+}
+header .song_side .content p {
+	font-size: 11px;
+	font-weight: 400;
+	color: #4c5262;
+	margin: 5px;
+}
+header .song_side .content .buttons {
+	margin-top: 15px;
+}
+header .song_side .content .buttons button{
+	width: 130px;
+	height: 30px;
+	border: 2px solid #36e2ec;
+	outline: none;
+	border-radius: 20px;
+	background: #5adae0;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s linear;
+}
+header .song_side .content .buttons button:hover {
+ background: none;
+ color: #36e2ec;
+}
+header .song_side .content .buttons button:nth-child(2) {	
+ background: none;
+ color: #36e2ec;
+}
+header .song_side .content .buttons button:nth-child(2):hover {	
+ background: #36e2ec;
+ color: #fff;
+}
+header .song_side .popular_song {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-top: 15px;
+	/*border: 1px solid #fff;*/
+}
+header .song_side .popular_song .h4 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header .song_side .popular_song .h4 .fa-solid {
+	color: #a4a8b4;
+	cursor: pointer;
+	transition: 0.3s linear;
+}
+header .song_side .popular_song .h4 .fa-solid:hover {
+	color: #fff;
+}
+header .song_side .popular_song .pop_song {
+	width: 100%;
+	height: 150px;
+	margin-top: 15px;
+	display: flex;
+	/*border: 1px solid #fff;*/
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+header .song_side .popular_song .pop_song::-webkit-scrollbar {
+	display: none;
+}
+header .song_side .popular_song .pop_song li {
+	min-width: 100px;
+	height: 140px;
+	list-style-type: none;
+	margin-right: 10px;
+	transition: .3s linear; 
+
+}
+header .song_side .popular_song .pop_song li:hover {
+	background: rgb(105, 105, 170, .1); 
+}
+header .song_side .popular_song .pop_song li .img_play {
+	position: relative;;
+	width: 100px;
+	height: 100px;
+	/*margin-left: -8px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header .song_side .popular_song .pop_song li .img_play img {
+	width: 100%;
+	height: 100%;
+
+}
+header .song_side .popular_song .pop_song li .img_play .fa-regular {
+	position: absolute;
+	font-size: 20px;
+	cursor: pointer;
+	transition: .3s linear;
+	opacity: 0;
+
+}
+header .song_side .popular_song .pop_song li:hover .img_play .fa-regular {
+	opacity: 1;
+}
+header .song_side .popular_song .pop_song li h5 {
+	padding: 5px 0px 0px 5px; 
+	line-height: 15px;
+	font-size: 10px;
+	width: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+header .song_side .popular_song .pop_song li h5 .subtitle {
+	font-size: 9px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #4c5262;
+}
+header .song_side .popular_artists {
+	width: 90%;
+    height: auto;
+    /*border: 1px solid #fff;*/
+    margin: auto;	
+    margin-top: 15px;
+}
+
+header .song_side .popular_artists .h4 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header .song_side .popular_artists .h4 .fa-solid {
+	color: #a4a8b4;
+	cursor: pointer;
+	transition: 0.3s linear;
+}
+header .song_side .popular_artists .h4 .fa-solid:hover {
+	color: #fff;
+}
+
+header .song_side .popular_artists .item {
+	width: 100%;
+	height: auto;
+	margin-top: -20px;
+	display: flex;
+	/*border: 1px solid #fff;*/
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+header .song_side .popular_artists .item::-webkit-scrollbar{
+display: none;
+}
+header .song_side .popular_artists .item li {
+	list-style-type: none; 
+	position: relative;
+	min-width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin-right: 20px;
+	cursor: pointer;
+}
+header .song_side .popular_artists .item li img {
+	width: 100%;
+	height: 100%;
+ border-radius: 50%;
+ margin-top: -10px;
+}
+
+
+
+//js code
+
+
+const music = new Audio('audio/1.mp3');
+  // music.play();
+
+
+
+let pop_song_left = document.getElementById('pop_song_left');
+let pop_song_right = document.getElementById('pop_song_right');
+let pop_song = document.getElementsByClassName('pop_song')[0];
+
+pop_song_right.addEventListener('click', () => {
+	pop_song.scrollLeft +=330;
+});
+pop_song_left.addEventListener('click', () => {
+	pop_song.scrollLeft -=330;
+});
+
+
+let pop_art_left = document.getElementById('pop_art_left');
+let pop_art_right = document.getElementById('pop_art_right');
+let item = document.getElementsByClassName('item')[0];
+
+
+pop_art_right.addEventListener('click', ()=>{
+	item.scrollLeft +=330;
+});
+pop_art_left.addEventListener('click', ()=>{
+	item.scrollLeft -=330;
+});
+
+let masterPlay = document.getElementById('masterPlay');
+let wave = document.getElementById('wave');
+
+masterPlay.addEventListener('click', ()=>{
+	if(music.paused || music.currentTime <= 0){
+		music.play();
+		wave.classList.add('active1');
+		masterPlay.classList.remove('fa-play');
+		masterPlay.classList.add('fa-pause');
+	}
+	else{
+music.pause();
+wave.classList.remove('active1');
+masterPlay.classList.add('fa-play');
+masterPlay.classList.remove('fa-pause');
+	}
+});
+
+
+
+
+
+const makeAllPlays = () => {
+	Array.from(document.getElementsByClassName('playListPlay')).forEach((el) => {
+		el.classList.add('fa-circle-play');
+        el.classList.remove('fa-circle-pause');
+	});
+}
+
+const makeAllBackground = () => {
+	Array.from(document.getElementsByClassName('songItem')).forEach((el) => {
+		el.style.background = 'rgb(105, 105, 105, .0)';
+	})
+}
+
+
+
+
+let index=0;
+let poster_master_play = document.getElementById('poster_master_play');
+let title = document.getElementById('title');
+Array.from(document.getElementsByClassName('playListPlay')).forEach((e)=>{
+	e.addEventListener('click', (el)=>{
+		index = el.target.id;
+		// console.log(index);
+		music.src = `audio/${index}.mp3`;
+		poster_master_play.src = `image/${index}.jpg`;
+		music.play();
+		masterPlay.classList.remove('fa-play');
+		masterPlay.classList.add('fa-pause');
+
+		let songTitles = songs.filter((els) =>{
+			return els.id ==index;
+		});
+		songTitles.forEach(elss =>{
+			let { songName } = elss; 
+			title.innerHTML = songName;
+
+		});
+
+		makeAllBackground();
+		Array.from(document.getElementsByClassName('songItem'))[index-1].style.background = "rgb(105, 105, 105, .1)";
+		makeAllPlays();
+		el.target.classList.add('fa-circle-pause');
+		el.target.classList.remove('fa-circle-play');
+       wave.classList.add('active1');
+	})
+})
+
+
+// for seek time
+let currentStart = document.getElementById('currentStart');
+let currentEnd = document.getElementById('currentEnd');
+let seek = document.getElementById('seek');
+let bar2 = document.getElementById('bar2');
+let play_dot = document.getElementById('play_dot');
+
+
+music.addEventListener('timeupdate', () => {
+	let music_curr = music.currentTime;
+	let music_dur = music.duration;
+	// console.log(music_dur);
+
+
+
+let min1 = Math.floor(music_dur / 60);
+let sec1 = Math.floor(music_dur % 60);
+
+if(sec1 < 10){
+	sec1 = `0${sec1}`;
+}
+
+currentEnd.innerText = `${min1}:${sec1}`;
+
+let min2 = Math.floor(music_curr / 60);
+let sec2 = Math.floor(music_curr % 60);
+if(sec2 < 10){
+	sec2 = `0${sec2}`;
+}
+currentStart.innerText = `${min2}:${sec2}`;
+
+
+// for seek
+let progressBar = parseInt((music_curr / music_dur) * 100);
+seek.value = progressBar;
+let seekbar = seek.value;
+bar2.style.width = `${seekbar}%`;
+play_dot.style.left = `${seekbar}%`;
+
+});
+seek.addEventListener('change', ()=>{
+	music.currentTime = seek.value * music.duration /100;
+});
+
+
+let vol_icon = document.getElementById('vol_icon');
+let vol = document.getElementById('vol');
+let vol_bar = document.getElementById('vol_bar');
+let vol_dot = document.getElementById('vol_dot');
+
+
+
+vol.addEventListener('change', () => {
+	if(vol.value == 0){
+		vol_icon.classList.remove('fa-volume-high');
+		vol_icon.classList.remove('fa-volume-low');
+		vol_icon.classList.add('fa-volume-off');
+	}
+if(vol.value > 0){
+	vol_icon.classList.remove('fa-volume-high');
+    vol_icon.classList.add('fa-volume-low');
+    vol_icon.classList.remove('fa-volume-off');
+}
+
+if(vol.value > 50){
+	vol_icon.classList.add('fa-volume-high');
+    vol_icon.classList.remove('fa-volume-low');
+	vol_icon.classList.remove('fa-volume-off');
+}
+//controlling vol
+let vol_a = vol.value;
+vol_bar.style.width = `${vol_a}%`;
+vol_dot.style.left = `${vol_a}%`;
+
+
+//changing volume by cursor
+music.volume = vol_a / 100;
+});
+
+//for next and previous
+let back = document.getElementById('back');
+let next = document.getElementById('next');
+
+back.addEventListener('click', () =>{
+	index -= 1;
+
+	if(index < 1){
+		index = Array.from(document.getElementsByClassName('songItem')).length;
+	}
+music.src = `audio/${index}.mp3`;
+		poster_master_play.src = `image/${index}.jpg`;
+		music.play();
+		masterPlay.classList.remove('fa-play');
+		masterPlay.classList.add('fa-pause');
+
+		let songTitles = songs.filter((els) =>{
+			return els.id ==index;
+		});
+		songTitles.forEach(elss =>{
+			let { songName } = elss; 
+			title.innerHTML = songName;
+
+		});
+
+		makeAllBackground();
+		Array.from(document.getElementsByClassName('songItem'))[index-1].style.background = "rgb(105, 105, 105, .1)";
+		makeAllPlays();
+		el.target.classList.add('fa-circle-pause');
+		el.target.classList.remove('fa-circle-play');
+        wave.classList.add('active1');
+
+})
+
+next.addEventListener('click', () =>{
+	index++;
+if(index > Array.from(document.getElementsByClassName('songItem')).length){
+		index = 1;
+	}
+
+	music.src = `audio/${index}.mp3`;
+		poster_master_play.src = `image/${index}.jpg`;
+		music.play();
+		masterPlay.classList.remove('fa-play');
+		masterPlay.classList.add('fa-pause');
+
+		let songTitles = songs.filter((els) =>{
+			return els.id ==index;
+		});
+		songTitles.forEach(elss =>{
+			let { songName } = elss; 
+			title.innerHTML = songName;
+
+		});
+
+		makeAllBackground();
+		Array.from(document.getElementsByClassName('songItem'))[index-1].style.background = "rgb(105, 105, 105, .1)";
+		makeAllPlays();
+		el.target.classList.add('fa-circle-pause');
+		el.target.classList.remove('fa-circle-play');
+        wave.classList.add('active1');
+
+})
+
+
+
+
+
+ const songs = [
+ {
+ 	id: '1',
+  songName: 'On My Way<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/1.jpg",
+ },
+ {
+ 	id: '2',
+  songName: 'You are the shadow to my Life<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/2.jpg",
+ },
+ {
+ 	id: '3',
+  songName: 'On and On<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/3.jpg",
+ },
+ {
+ 	id: '4',
+  songName: 'Joker Tune<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/4.jpg",
+ },
+ {
+ 	id: '5',
+  songName: 'Nice Tune<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/5.jpg",
+ },
+ {
+ 	id: '6',
+  songName: 'English Tune<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/6.jpg",
+ },
+ {
+ 	id: '7',
+  songName: 'tum sath ho<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/7.jpg",
+ },
+ {
+ 	id: '8',
+  songName: 'suan hai<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/8.jpg",
+ },
+ {
+ 	id: '9',
+  songName: 'dilber<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/9.jpg",
+ },
+ {
+ 	id: '10',
+  songName: 'duniya<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/10.jpg",
+ },
+ {
+ 	id: '11',
+  songName: 'lagdi lahore di<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/11.jpg",
+ },
+ {
+ 	id: '12',
+  songName: 'putt Jatt <br><div class="subtitle">Alen Walker</div>',
+     poster: "image/12.jpg",
+ },
+ {
+ 	id: '13',
+  songName: 'baarishen<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/13.jpg",
+ },
+ {
+ 	id: '14',
+  songName: 'vaste<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/14.jpg",
+ },
+ {
+ 	id: '15',
+  songName: 'kutti mohabbate <br><div class="subtitle">Alen Walker</div>',
+     poster: "image/15.jpg",
+ },
+ {
+ 	id: '16',
+  songName: 'meri Jindagi hai<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/16.jpg",
+ },
+ {
+ 	id: '17',
+  songName: 'batao yaad hai<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/17.jpg",
+ },
+ {
+ 	id: '18',
+  songName: 'mere dhole judaiyan<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/18.jpg",
+ },
+ {
+ 	id: '19',
+  songName: 'Insane vic musicy<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/19.jpg",
+ },
+ {
+ 	id: '20',
+  songName: 'nothing<br><div class="subtitle">Alen Walker</div>',
+     poster: "image/20.jpg",
+ }
+ ]
+
+Array.from(document.getElementsByClassName('songItem')).forEach((e, i) =>{
+e.getElementsByTagName('img')[0].src = songs[i].poster;
+e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
+
+});
+
+
+
+
+
+
